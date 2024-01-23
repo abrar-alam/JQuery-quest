@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  <div class="input-container">
+    <form id="input-form" method="get" >
+      <label for="movie-name">Movie Name:</label>
+      <input id="movie-name" type="text" required minlength="2">
+      <label for="movie-rating">Movie Rating (between 0 and 10):</label>
+      <input id="movie-rating" type="number" required min='0' max='10'>
+      <input id="movie-info-submit" type="submit" value="Add">
+    </form>
+    
+  </div>
+
+
+  <div class="movie-dat">
+    <table id="movie-table">
+      <thead>
+        <tr>
+          <th>Movie Name <button class="movie-name-ascending">&uarr;</button ><button class="movie-name-descending">&darr;</button></th>
+          <th>Rating <button class="movie-rating-ascending">&uarr;</button ><button class="movie-rating-descending">&darr;</button></th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+
+</body>
+</html>

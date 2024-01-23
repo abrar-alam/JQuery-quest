@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the container takes the full height of the viewport */
+}
+
+.input-container{
+    margin-top: 10px;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.movie-dat{
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    border: 1px solid grey;
+  }
+  
+  table {
+    margin: 50px 50px;
+    border-collapse: collapse;
+    padding: 4px;
+    width: 80%;
+    text-align: center;
+  }
